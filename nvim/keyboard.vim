@@ -17,6 +17,7 @@ inoremap jj <ESC>l
 " jk to return to Normal Mode and save file
 inoremap jk <ESC>:w<CR>
 nnoremap <Leader>h :nohl<CR>
+"
 " Use TAB to change Split Panels
 nnoremap <TAB> <C-w>w
 
