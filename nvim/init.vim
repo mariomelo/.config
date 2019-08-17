@@ -9,4 +9,3 @@ source ~/.config/nvim/style.vim
 
 "Adiciona os atalhos de teclado
 source ~/.config/nvim/keyboard.vim
-
