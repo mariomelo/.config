@@ -13,6 +13,6 @@ The install scripts will install the following tools:
 
 1 - Clone this repo into your `home` folder and run:
 
-`bash ~/.config/install/install_all.sh`
+`bash ~/.config/install/osx.sh`
 
 2 - Be happy :)
