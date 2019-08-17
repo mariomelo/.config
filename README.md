@@ -1,16 +1,18 @@
-# Configuração de ambiente de trabalho
+# My configuration files
 
-Os _dotfiles_ deste repositório configuram os seguintes utilitários:
+**NOTE:** The install scripts are meant for OSX 🍎. I'll add Linux 🐧 in the future, but feel free to contribute though.
+
+The install scripts will install the following tools:
 
 * ohmyzsh
 * Slate
 * Nvim
 * Brew
 
-### Instalação
+### How to install
 
-1 - Clone este repositório na sua `home` e execute o comando:
+1 - Clone this repo into your `home` folder and run:
 
 `bash ~/.config/install/install_all.sh`
 
-2 - Seja feliz :)
+2 - Be happy :)

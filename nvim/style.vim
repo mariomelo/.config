@@ -20,9 +20,14 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.pdf,*.zip,*/node_modules/*,*/build/*,*/dist
 let g:jsx_ext_required = 0
 
 " Theme options
+if !has('gui_running')
+  set t_Co=256
+endif
 set termguicolors
+syntax on
+let g:oceanic_next_terminal_bold = 1
+let g:oceanic_next_terminal_italic = 1
 colorscheme OceanicNext
-let g:one_allow_italics = 1
 hi def link jsObjectKey Label
 
 " Salva as abas na sessão
