@@ -39,8 +39,6 @@ Plug 'Townk/vim-autoclose'
 Plug 'alvan/vim-closetag'
 Plug 'othree/html5.vim'
 Plug 'posva/vim-vue'
-Plug 'ervandew/supertab'
-Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'inside/vim-search-pulse'
 
