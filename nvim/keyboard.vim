@@ -6,7 +6,7 @@ map <leader>S :e ~/.config/nvim/init.vim<CR>
 nnoremap <Leader><Leader> :e#<CR>
 
 " CTRL+P open FZF
-nnoremap <C-p> :FZF<CR>
+nnoremap <C-p> :call Fzf_dev()<CR>
 
 " Space + G to toggle GitGutter (git information)
 nnoremap <Leader>g :GitGutterToggle<Enter>
