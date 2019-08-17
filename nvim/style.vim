@@ -21,7 +21,7 @@ let g:jsx_ext_required = 0
 
 " Theme options
 set termguicolors
-colorscheme gruvbox-material
+colorscheme OceanicNext
 let g:one_allow_italics = 1
 hi def link jsObjectKey Label
 
@@ -35,11 +35,11 @@ let g:airline_theme='base16_monokai'
 set sessionoptions+=tabpages,globals
 
 " Símbolos do GitGutter
-let g:gitgutter_sign_added = '++'
-let g:gitgutter_sign_modified = '>>'
-let g:gitgutter_sign_removed = '--'
-let g:gitgutter_sign_removed_first_line = '^^'
-let g:gitgutter_sign_modified_removed = '--'
+let g:gitgutter_sign_added = '🆕'
+let g:gitgutter_sign_modified = '⏩'
+let g:gitgutter_sign_removed = '⛔'
+let g:gitgutter_sign_removed_first_line = '⛔'
+let g:gitgutter_sign_modified_removed = '⏩'
 
 " ColorScheme commands
 command! Dark execute "colorscheme base16-materia"
