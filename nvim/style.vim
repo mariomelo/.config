@@ -35,11 +35,12 @@ let g:airline_theme='base16_monokai'
 set sessionoptions+=tabpages,globals
 
 " Símbolos do GitGutter
-let g:gitgutter_sign_added = '🆕'
-let g:gitgutter_sign_modified = '⏩'
-let g:gitgutter_sign_removed = '⛔'
-let g:gitgutter_sign_removed_first_line = '⛔'
-let g:gitgutter_sign_modified_removed = '⏩'
+
+let g:gitgutter_sign_added = "\uf055"
+let g:gitgutter_sign_modified = "\uf0ec"
+let g:gitgutter_sign_removed = "\uf056"
+let g:gitgutter_sign_removed_first_line = "\uf056"
+let g:gitgutter_sign_modified_removed =  "\uf0ec"
 
 " ColorScheme commands
 command! Dark execute "colorscheme base16-materia"
