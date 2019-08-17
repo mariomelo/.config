@@ -9,3 +9,6 @@ source ~/.config/nvim/style.vim
 
 "Adiciona os atalhos de teclado
 source ~/.config/nvim/keyboard.vim
+
+"Fuzzy Finder Configuration
+source ~/.config/nvim/fzf.vim
