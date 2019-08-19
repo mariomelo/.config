@@ -45,9 +45,10 @@ Plug 'inside/vim-search-pulse'
 " Elixir
 Plug 'JakeBecker/elixir-ls'
 Plug 'elixir-editors/vim-elixir', { 'for': 'elixir' }
-Plug 'mhinz/vim-mix-format', { 'for': 'elixir' }
 Plug 'tpope/vim-endwise'
-Plug 'mhinz/vim-mix-format'
+
+" ReasonML
+Plug 'reasonml-editor/vim-reason-plus'
 
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
 call plug#end()

@@ -1,3 +1,7 @@
 coc
 configstore
 nvim/plugged
+base16*
+devcert
+ascii*
+exercism

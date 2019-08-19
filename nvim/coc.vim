@@ -1,4 +1,4 @@
-  " Coc.nvim
+" Coc.nvim
 let g:coc_global_extensions = ['coc-snippets', 'coc-emoji', 'coc-elixir', 'coc-eslint', 'coc-prettier', 'coc-tsserver', 'coc-tslint', 'coc-tslint-plugin',  'coc-css', 'coc-json', 'coc-pyls', 'coc-yaml']
 
 " Better display for messages

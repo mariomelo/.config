@@ -3,6 +3,19 @@
      "elixirLS": {
       "command": "~/.elixir/language_server.sh",
       "filetypes": ["elixir", "eelixir"]
+     },
+     "flow": {
+      "command": "npm run flow",
+      "args": ["lsp"],
+      "filetypes": ["javascript", "javascriptreact"],
+      "initializationOptions": {},
+      "requireRootPattern": true,
+      "settings": {},
+      "rootPatterns": [".flowconfig"]
+    },
+    "reason": {
+      "command": "~/.reasonml-ls/reason-language-server",
+      "filetypes": ["reason"]
      }
   }
 }
