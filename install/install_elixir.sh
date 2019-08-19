@@ -8,6 +8,7 @@ mix deps.get
 mix compile
 
 # Instala o language-server de elixir para habilitar autocomplete e lint
-mkdir -f ~/.elixir
+mkdir -p ~/.elixir
 mix elixir_ls.release -o ~/.elixir
+cd ..
 rm -rf ./elixir-ls
