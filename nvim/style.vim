@@ -18,6 +18,7 @@ set laststatus=2
 set is
 set wildignore+=*/tmp/*,*.so,*.swp,*.pdf,*.zip,*/node_modules/*,*/build/*,*/dist/*
 let g:jsx_ext_required = 0
+set fcs=eob:\ " Remove o ~ das linhas vazias
 
 " Theme options
 if !has('gui_running')

@@ -1,17 +1,17 @@
 " Instala o vim-plug automaticamente
 let plugpath = expand('<sfile>:p:h'). '/autoload/plug.vim'
 if !filereadable(plugpath)
-    if executable('curl')
-        let plugurl = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-        call system('curl -fLo ' . shellescape(plugpath) . ' --create-dirs ' . plugurl)
-        if v:shell_error
-            echom "Error downloading vim-plug. Please install it manually.\n"
-            exit
-        endif
-    else
-        echom "vim-plug not installed. Please install it manually or install curl.\n"
-        exit
+  if executable('curl')
+    let plugurl = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+    call system('curl -fLo ' . shellescape(plugpath) . ' --create-dirs ' . plugurl)
+    if v:shell_error
+      echom "Error downloading vim-plug. Please install it manually.\n"
+      exit
     endif
+  else
+    echom "vim-plug not installed. Please install it manually or install curl.\n"
+    exit
+  endif
 endif
 
 call plug#begin()
@@ -43,14 +43,15 @@ Plug 'honza/vim-snippets'
 Plug 'inside/vim-search-pulse'
 
 " Elixir
-Plug 'JakeBecker/elixir-ls'
+" Plug 'JakeBecker/elixir-ls'
 Plug 'elixir-editors/vim-elixir', { 'for': 'elixir' }
 Plug 'tpope/vim-endwise'
 
-" ReasonML
-Plug 'reasonml-editor/vim-reason-plus'
-
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
+
+" Writing
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
 call plug#end()
 
 let g:mix_format_on_save = 1
