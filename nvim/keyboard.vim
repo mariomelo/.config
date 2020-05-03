@@ -29,3 +29,6 @@ nnoremap <Leader>p :cp<CR>
 
 "Copy to Clipboard
 nnoremap <Leader>c "+y
+
+"Autoformat in Normal mode with 'ff'
+nnoremap ff :Autoformat<CR>

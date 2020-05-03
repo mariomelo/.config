@@ -20,7 +20,6 @@ Plug 'tpope/vim-projectionist'
 Plug 'sainnhe/gruvbox-material'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
 Plug 'chriskempson/base16-vim'
 Plug 'mhartington/oceanic-next'
 Plug 'ryanoasis/vim-devicons'
@@ -30,7 +29,6 @@ Plug 'jparise/vim-graphql'
 Plug 'mxw/vim-jsx'
 Plug 'elzr/vim-json'
 Plug 'airblade/vim-gitgutter'
-Plug 'Chiel92/vim-autoformat'
 Plug 'mhinz/vim-startify'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 Plug 'gcmt/taboo.vim'
@@ -41,17 +39,21 @@ Plug 'othree/html5.vim'
 Plug 'posva/vim-vue'
 Plug 'honza/vim-snippets'
 Plug 'inside/vim-search-pulse'
+Plug 'Chiel92/vim-autoformat'
 
 " Elixir
 " Plug 'JakeBecker/elixir-ls'
 Plug 'elixir-editors/vim-elixir', { 'for': 'elixir' }
 Plug 'tpope/vim-endwise'
+Plug 'mhinz/vim-mix-format'
 
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
+
+" HTML
+Plug 'mattn/emmet-vim'
 
 " Writing
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 call plug#end()
 
-let g:mix_format_on_save = 1

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/mario/.config/nvim'
+let g:netrw_dirhist_9='/Users/mario/projetos/phoenix-book/auction_umbrella'
+let g:netrw_dirhist_8='/Users/mario/.config/nvim'
+let g:netrw_dirhist_7='/Users/mario/projetos/html'
+let g:netrw_dirhist_6='/Users/mario/projetos/twitter_liveview'
+let g:netrw_dirhist_5='/Users/mario/projetos/natas/natas26'
+let g:netrw_dirhist_4='/Users/mario/projetos/natas/natas25'
+let g:netrw_dirhist_3='/Users/mario/projetos/natas/natas16'
+let g:netrw_dirhist_2='/Users/mario/projetos/natas/natas15'
+let g:netrw_dirhist_1='/Users/mario/projetos/natas/natas17'

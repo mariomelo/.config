@@ -15,6 +15,3 @@ source ~/.config/nvim/lightline.vim
 
 "Configura a aparência do VIM
 source ~/.config/nvim/style.vim
-
-"Configura os formatadores automáticos de código
-source ~/.config/nvim/autoformat.vim
