@@ -52,6 +52,9 @@ Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
 " HTML
 Plug 'mattn/emmet-vim'
 
+" Svelte
+Plug 'evanleck/vim-svelte'
+
 " Writing
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'

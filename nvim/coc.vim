@@ -1,5 +1,5 @@
 " Coc.nvim
-let g:coc_global_extensions = ['coc-snippets', 'coc-emoji', 'coc-elixir', 'coc-eslint', 'coc-prettier', 'coc-tsserver', 'coc-tslint', 'coc-tslint-plugin',  'coc-css', 'coc-json', 'coc-pyls', 'coc-yaml']
+let g:coc_global_extensions = ['coc-snippets', 'coc-emoji', 'coc-elixir', 'coc-eslint', 'coc-prettier', 'coc-tsserver', 'coc-tslint', 'coc-tslint-plugin',  'coc-css', 'coc-json', 'coc-pyls', 'coc-yaml', 'coc-svelte']
 
 " Better display for messages
 set cmdheight=2
@@ -10,17 +10,13 @@ set shortmess+=c
 " always show signcolumns
 set signcolumn=yes
 
-" Use `lp` and `ln` for navigate diagnostics
-nmap <silent> <leader>p <Plug>(coc-diagnostic-prev)
-nmap <silent> <leader>n <Plug>(coc-diagnostic-next)
-
 " Remap keys for gotos
 nmap <leader>d <Plug>(coc-definition)
 nmap <leader>t <Plug>(coc-type-definition)
 nmap <leader>i <Plug>(coc-implementation)
 
 " Remap for rename current word
-nmap <leader>vr <Plug>(coc-rename)
+nmap <leader>c <Plug>(coc-rename)
 
 " Use K for show documentation in preview window
 nnoremap <silent> K :call <SID>show_documentation()<CR>

@@ -30,5 +30,10 @@ nnoremap <Leader>p :cp<CR>
 "Copy to Clipboard
 nnoremap <Leader>c "+y
 
+"Previous/Next Error
+nnoremap <Leader>E :lprev<CR>
+nnoremap <Leader>e :lnext<CR>
+
+
 "Autoformat in Normal mode with 'ff'
 nnoremap ff :Autoformat<CR>
