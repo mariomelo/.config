@@ -39,6 +39,7 @@ Plug 'othree/html5.vim'
 Plug 'posva/vim-vue'
 Plug 'honza/vim-snippets'
 Plug 'inside/vim-search-pulse'
+Plug 'SirVer/ultisnips'
 Plug 'Chiel92/vim-autoformat'
 
 " Elixir

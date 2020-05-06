@@ -36,4 +36,13 @@ nnoremap <Leader>e :lnext<CR>
 
 
 "Autoformat in Normal mode with 'ff'
-nnoremap ff :Autoformat<CR>
+nnoremap ff :call CocAction('format')<CR>
+
+"Use UtilSnips
+let g:UltiSnipsExpandTrigger="<C-Leader>"
+" shortcut to go to next position
+let g:UltiSnipsJumpForwardTrigger='<C-j>'
+" shortcut to go to previous position
+let g:UltiSnipsJumpBackwardTrigger='<C-k>'
+
+command! -nargs=0 Format :call CocAction('format')

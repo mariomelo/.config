@@ -1,4 +1,9 @@
 {
+  "coc": {
+    "preferences" : {
+      "formatOnSaveFiletypes": ["html", "javascript", "elixir"]
+    }
+  },
   "languageserver": {
     "flow": {
       "command": "npm run flow",

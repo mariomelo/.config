@@ -16,7 +16,7 @@ nmap <leader>t <Plug>(coc-type-definition)
 nmap <leader>i <Plug>(coc-implementation)
 
 " Remap for rename current word
-nmap <leader>c <Plug>(coc-rename)
+nmap <F2> <Plug>(coc-rename)
 
 " Use K for show documentation in preview window
 nnoremap <silent> K :call <SID>show_documentation()<CR>

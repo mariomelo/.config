@@ -1,0 +1,34 @@
+snippet defmodule "defmodule" w 
+defmodule $1.$2 do
+$3
+end
+endsnippet
+
+snippet mount "mount live_view" w
+def mount(${1:_params}, ${2:_session}, socket) do
+	$3
+	{:ok, socket}
+end
+endsnippet
+
+snippet render "render live_view" w
+def render(assigns) do
+	~L"""
+	$1
+	"""
+end
+endsnippet
+
+snippet hevt "handle_event live_view" w
+def handle_event("${1:event}", _params, socket) do
+	$2
+	{:noreply, socket}
+end
+endsnippet
+
+snippet hinf "handle_info live_view" w
+def handle_info(${1:symbol}, socket) do
+	$2
+	{:noreply, socket}
+end
+endsnippet
