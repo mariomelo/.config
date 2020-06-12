@@ -21,7 +21,6 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'chriskempson/base16-vim'
-Plug 'mhartington/oceanic-next'
 Plug 'ryanoasis/vim-devicons'
 Plug 'itchyny/lightline.vim'
 Plug 'pangloss/vim-javascript'
@@ -41,6 +40,7 @@ Plug 'honza/vim-snippets'
 Plug 'inside/vim-search-pulse'
 Plug 'SirVer/ultisnips'
 Plug 'Chiel92/vim-autoformat'
+Plug 'Yggdroot/indentLine'
 
 " Elixir
 " Plug 'JakeBecker/elixir-ls'

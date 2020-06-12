@@ -20,6 +20,7 @@ alias main_key ctrl;cmd
 
 #Shortcut to Focus on certain apps
 bind c:${main_key} focus 'Google Chrome'
+bind b:${main_key} focus 'Brave Browser'
 bind p:${main_key} focus 'iTerm2'
 bind v:${main_key} focus 'Code'
 bind s:${main_key} focus 'Slack'

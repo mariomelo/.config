@@ -21,14 +21,11 @@ let g:jsx_ext_required = 0
 set fcs=eob:\ " Remove o ~ das linhas vazias
 
 " Theme options
-if !has('gui_running')
-  set t_Co=256
-endif
-set termguicolors
+" if !has('gui_running')
+" set t_Co=256
+" endif
+" set termguicolors
 syntax on
-let g:oceanic_next_terminal_bold = 1
-let g:oceanic_next_terminal_italic = 1
-colorscheme OceanicNext
 hi def link jsObjectKey Label
 
 " Salva as abas na sessão
@@ -43,10 +40,13 @@ let g:gitgutter_sign_removed_first_line = "\uf056"
 let g:gitgutter_sign_modified_removed =  "\uf0ec"
 
 " ColorScheme commands
-command! Dark execute "colorscheme base16-materia"
-command! Light execute "colorscheme base16-google-light"
+command! Dark execute "colorscheme base16-eighties"
+command! Light execute "colorscheme base16-solarized-light"
 command! Mocha execute "colorscheme base16-mocha"
-command! Ocean execute "colorscheme OceanicNext"
+command! Twilight execute "colorscheme base16-twilight"
+command! Nord execute "colorscheme base16-Nord"
+
+colorscheme base16-nord
 
 "VimDiff configuration
 "" If doing a diff. Upon writing changes to file, automatically update the
@@ -58,3 +58,9 @@ set shortmess+=c
 set noruler
 
 set noswapfile
+
+" IndentLine {{
+let g:indentLine_char_list = ['¦','¦','¦','¦','¦','¦','¦','¦']
+let g:indentLine_showFirstIndentLevel = 0
+let g:indentLine_setColors = 0
+" }}

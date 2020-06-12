@@ -22,6 +22,23 @@ endsnippet
 snippet hevt "handle_event live_view" w
 def handle_event("${1:event}", _params, socket) do
 	$2
+
+	socket = assign( socket,
+		$3
+	)
+
+	{:noreply, socket}
+end
+endsnippet
+
+snippet hpar "handle_params live_view" w
+def handle_params(%{"${1:param}" => ${2:value}}, _url, socket) do
+	$2
+
+	socket = assign( socket,
+		$4
+	)
+
 	{:noreply, socket}
 end
 endsnippet
