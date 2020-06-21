@@ -56,6 +56,7 @@ autocmd BufWritePost * if &diff == 1 | diffupdate | endif
 set cmdheight=1
 set shortmess+=c
 set noruler
+set relativenumber
 
 set noswapfile
 
@@ -64,3 +65,8 @@ let g:indentLine_char_list = ['¦','¦','¦','¦','¦','¦','¦','¦']
 let g:indentLine_showFirstIndentLevel = 0
 let g:indentLine_setColors = 0
 " }}
+
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif

@@ -49,3 +49,10 @@ def handle_info(${1:symbol}, socket) do
 	{:noreply, socket}
 end
 endsnippet
+
+snippet hcal "handle_call GenServer" w
+def handle_call(${1:message}, _from, state) do
+	$2
+	{:reply, response, state}
+end
+endsnippet
