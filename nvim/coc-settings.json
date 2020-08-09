@@ -13,10 +13,6 @@
       "requireRootPattern": true,
       "settings": {},
       "rootPatterns": [".flowconfig"]
-    },
-    "reason": {
-      "command": "~/.reasonml-ls/reason-language-server",
-      "filetypes": ["reason"]
     }
   }
 }

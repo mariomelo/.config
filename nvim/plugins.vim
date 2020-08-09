@@ -43,7 +43,7 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'Yggdroot/indentLine'
 
 " Elixir
-" Plug 'JakeBecker/elixir-ls'
+Plug 'slashmili/alchemist.vim'
 Plug 'elixir-editors/vim-elixir', { 'for': 'elixir' }
 Plug 'tpope/vim-endwise'
 Plug 'mhinz/vim-mix-format'
