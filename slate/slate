@@ -4,6 +4,8 @@ config defaultToCurrentScreen true
 alias full move screenOriginX;screenOriginY screenSizeX;screenSizeY
 alias lefthalf move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
 alias righthalf move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY
+alias tophalf move screenOriginX;screenOriginY screenSizeX;screenSizeY/2
+alias bottomhalf move screenOriginX;screenOriginY+screenSizeY/2 screenSizeX;screenSizeY/2
 
 ### Layouts
 
@@ -38,6 +40,8 @@ bind n:${main_key} layout all_full
 bind k:${main_key} ${full}
 bind l:${main_key} ${righthalf}
 bind h:${main_key} ${lefthalf}
+bind j:${main_key} ${bottomhalf}
+bind u:${main_key} ${tophalf}
 
 # Monitor switching bindings
 bind right:alt,ctrl throw 1 resize
