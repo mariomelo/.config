@@ -25,7 +25,7 @@ bind c:${main_key} focus 'Google Chrome'
 bind b:${main_key} focus 'Brave Browser'
 bind p:${main_key} focus 'iTerm2'
 bind v:${main_key} focus 'Code'
-bind z:${main_key} focus 'Zoom'
+bind z:${main_key} focus 'zoom.us'
 bind w:${main_key} focus 'WhatsApp'
 
 # Dev Modes

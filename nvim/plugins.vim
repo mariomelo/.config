@@ -16,7 +16,6 @@ endif
 
 call plug#begin()
 Plug 'roman/golden-ratio'
-Plug 'tpope/vim-projectionist'
 Plug 'sainnhe/gruvbox-material'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -24,23 +23,19 @@ Plug 'chriskempson/base16-vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'itchyny/lightline.vim'
 Plug 'pangloss/vim-javascript'
-Plug 'jparise/vim-graphql'
 Plug 'mxw/vim-jsx'
 Plug 'elzr/vim-json'
 Plug 'airblade/vim-gitgutter'
-Plug 'mhinz/vim-startify'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 Plug 'gcmt/taboo.vim'
 Plug 'tmhedberg/matchit'
 Plug 'Townk/vim-autoclose'
 Plug 'alvan/vim-closetag'
 Plug 'othree/html5.vim'
-Plug 'posva/vim-vue'
 Plug 'honza/vim-snippets'
 Plug 'inside/vim-search-pulse'
 Plug 'SirVer/ultisnips'
 Plug 'Chiel92/vim-autoformat'
-Plug 'Yggdroot/indentLine'
 
 " Elixir
 Plug 'slashmili/alchemist.vim'

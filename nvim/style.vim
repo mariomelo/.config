@@ -56,7 +56,6 @@ autocmd BufWritePost * if &diff == 1 | diffupdate | endif
 set cmdheight=1
 set shortmess+=c
 set noruler
-set relativenumber
 
 set noswapfile
 
