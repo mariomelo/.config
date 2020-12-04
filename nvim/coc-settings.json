@@ -3,16 +3,5 @@
     "preferences" : {
       "formatOnSaveFiletypes": ["html", "javascript", "elixir"]
     }
-  },
-  "languageserver": {
-    "flow": {
-      "command": "npm run flow",
-      "args": ["lsp"],
-      "filetypes": ["javascript", "javascriptreact"],
-      "initializationOptions": {},
-      "requireRootPattern": true,
-      "settings": {},
-      "rootPatterns": [".flowconfig"]
-    }
   }
 }

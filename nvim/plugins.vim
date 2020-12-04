@@ -43,7 +43,7 @@ Plug 'elixir-editors/vim-elixir', { 'for': 'elixir' }
 Plug 'tpope/vim-endwise'
 Plug 'mhinz/vim-mix-format'
 
-Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
 
 " HTML
 Plug 'mattn/emmet-vim'
