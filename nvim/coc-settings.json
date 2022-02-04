@@ -1,7 +1,19 @@
 {
-  "coc": {
-    "preferences" : {
-      "formatOnSaveFiletypes": ["html", "javascript", "elixir"]
+  "coc.preferences.formatOnSaveFiletypes": [
+    "html",
+    "ex",
+    "exs",
+    "heex",
+    "json",
+    "js",
+    "jsx"
+  ],
+  "codeLens.enable": true,
+  "languageserver": {
+    "elixirLS": {
+      "command": "/opt/homebrew/bin/elixir-ls",
+      "filetypes": ["elixir", "eelixir"]
     }
-  }
+  },
+  "elixirLS.projectDir": "."
 }

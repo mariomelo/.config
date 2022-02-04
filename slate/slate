@@ -27,6 +27,8 @@ bind p:${main_key} focus 'iTerm2'
 bind v:${main_key} focus 'Code'
 bind z:${main_key} focus 'zoom.us'
 bind w:${main_key} focus 'WhatsApp'
+bind s:${main_key} focus 'Slack'
+bind i:${main_key} focus 'Safari'
 
 # Dev Modes
 bind ]:${main_key} chain focus 'Brave Browser' | focus 'iTerm2'

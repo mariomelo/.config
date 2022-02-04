@@ -46,7 +46,7 @@ command! Mocha execute "colorscheme base16-mocha"
 command! Twilight execute "colorscheme base16-twilight"
 command! Nord execute "colorscheme base16-Nord"
 
-colorscheme base16-nord
+colorscheme base16-mocha
 
 "VimDiff configuration
 "" If doing a diff. Upon writing changes to file, automatically update the
