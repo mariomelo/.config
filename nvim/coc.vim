@@ -11,9 +11,9 @@ set shortmess+=c
 set signcolumn=yes
 
 " Remap keys for gotos
-nmap <leader>d <Plug>(coc-definition)
-nmap <leader>t <Plug>(coc-type-definition)
-nmap <leader>i <Plug>(coc-implementation)
+nmap gd <Plug>(coc-definition)
+nmap gt <Plug>(coc-type-definition)
+nmap gi <Plug>(coc-implementation)
 
 " Remap for rename current word
 nmap <F2> <Plug>(coc-rename)
