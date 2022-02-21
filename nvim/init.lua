@@ -1,0 +1,5 @@
+require "bindings"
+require "plugins"
+require "style"
+require "languages"
+require "luaconfig"
