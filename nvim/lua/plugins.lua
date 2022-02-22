@@ -19,23 +19,17 @@ return require('packer').startup(function()
     requires = { {'nvim-lua/plenary.nvim'} }
   }
   use 'hrsh7th/nvim-cmp'
-  use("hrsh7th/cmp-nvim-lsp")
-  use("hrsh7th/cmp-vsnip")
-  use("hrsh7th/vim-vsnip")
+  use "hrsh7th/cmp-nvim-lsp"
+  use "hrsh7th/cmp-buffer"
+  use "hrsh7th/cmp-path"
+  use "L3MON4D3/LuaSnip"
+  use "rafamadriz/friendly-snippets"
+  use 'saadparwaiz1/cmp_luasnip' 
 
-  use("onsails/lspkind-nvim")
+  use "onsails/lspkind-nvim"
 
   -- git
   use 'tpope/vim-fugitive' -- Git commands
-  use {
-    'lewis6991/gitsigns.nvim',
-    requires = {
-      'nvim-lua/plenary.nvim'
-    },
-    config = function()
-      require('gitsigns').setup()
-    end
-  }
 
   -- Language Servers
   use 'neovim/nvim-lspconfig'
