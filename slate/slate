@@ -11,11 +11,11 @@ alias bottomhalf move screenOriginX;screenOriginY+screenSizeY/2 screenSizeX;scre
 
 # Mobile Programming
 layout mobile 'iTerm2' push left bar-resize:screenSizeX*0.725 | push right bar-resize:screenSizeX*0.725
-layout mobile 'Brave Browser' move screenOriginX+screenSizeX*0.725;screenOriginY screenSizeX*0.275;screenSizeY
+layout mobile 'Firefox' move screenOriginX+screenSizeX*0.725;screenOriginY screenSizeX*0.275;screenSizeY
 layout ios 'iTerm2' push left bar-resize:screenSizeX*0.725 | push right bar-resize:screenSizeX*0.725
 layout ios 'Simulator' move screenOriginX+screenSizeX*0.725;screenOriginY screenSizeX*0.275;screenSizeY
 layout all_full 'iTerm2' ${full}
-layout all_full 'Brave Browser' ${full}
+layout all_full 'Firefox' ${full}
 
 # Key Combination
 alias main_key ctrl;cmd
@@ -28,7 +28,7 @@ bind v:${main_key} focus 'Code'
 bind z:${main_key} focus 'zoom.us'
 bind w:${main_key} focus 'WhatsApp'
 bind s:${main_key} focus 'Slack'
-bind i:${main_key} focus 'Safari'
+bind i:${main_key} focus 'Firefox'
 
 # Dev Modes
 bind ]:${main_key} chain focus 'Brave Browser' | focus 'iTerm2'

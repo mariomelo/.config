@@ -23,7 +23,8 @@ nmap("<Leader>h", ":nohl<CR>")
 nmap("<TAB>", "<C-w>w")
 
 -- Find and Replace
-nmap("<C-p>", ":Telescope git_files<CR>")
+nmap("<C-p>", ":Telescope find_files<CR>")
+nmap("<C-i>", ":Telescope git_files<CR>")
 nmap("<C-f>", ":Telescope live_grep<CR>")
 
 nmap("<Leader>n", ":cn<CR>")
